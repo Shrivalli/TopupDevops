@@ -38,6 +38,21 @@ change 2 by amlan
 
 
 
+What is Version control system
+what is git and github
+what is local repository
+central repository and distributed repository
+what is git command
+git init
+git remote add origin
+what is git add .
+how to change the remote origin
+how to check the current url 
+how to create a github account
+how to install git
+what is git clone
+what is git push
+
 
 
 
