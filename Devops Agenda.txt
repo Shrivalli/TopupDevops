@@ -1,0 +1,40 @@
+Intro to Devops
+Devops Stages
+Git and Github
+Various tools involved in Devops
+Jenkins (creating a Job, creating a declarative and scripted pipeline, Scripts for the pipeline, implementing master and a slave in Jenkins)
+Docker (creating an image, push the image in docker hub, pull images from docker hub)
+Virtualization (creating a VM in the cloud and connecting through RDP)
+Kubernetes (Architecture, creating nodes, and pods)
+Azure
+Light on Devsecops
+
+
+
+1. What is SDLC?
+2. What is Agile?
+3. What is Devops?
+4. Difference between Agile and Devops?
+5. Various stages of Devops?
+6. Advantages of Devops
+7. What is Devops Lifecycle?
+8. Why do we need Devops?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
