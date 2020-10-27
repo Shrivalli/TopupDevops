@@ -20,6 +20,13 @@ Light on Devsecops
 7. What is Devops Lifecycle?
 8. Why do we need Devops?
 
+git init
+git remote add origin https://github.com/Shrivalli/TopupDevops.git
+git add .
+git status  --> can be typed anywhere
+git commit -m "message"
+git push origin master --> to push the data into github.com from local git
+git pull origin master --> to pull the latest copy from github.com into local git
 
 
 
