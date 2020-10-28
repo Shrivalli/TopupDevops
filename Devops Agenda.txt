@@ -36,7 +36,10 @@ git pull origin master --> to pull the latest copy from github.com into local gi
 change
 change 2 by amlan
 Chnage by chris
+<<<<<<< HEAD
 
+=======
+>>>>>>> e03ae750767ec387d41739b9e789bef458d25f22
 
 What is Version control system
 what is git and github
