@@ -1,0 +1,21 @@
+Java Steps:
+
+Install java and verify the version
+using java -version
+
+Set Environmental variable of JAVA_HOME to
+C:\ProgramFiles\java\jdk1.7.0_60
+
+Append the string to the PATH variable:
+C:\Program Files\Java\jdk1.7.0_60\bin 
+
+Jenkins Steps:
+1. java –jar jenkins.war --httpPort=8090
+2. Create another user
+3. store password
+
+Plugins:
+1. Git
+2. Maven
+
+https://github.com/Java-Techie-jt/docker-jenkins-integration-sample.git 

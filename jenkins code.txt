@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/Shrivalli/GithubWebhookEg.git'
+                echo 'Project checked out from git'
+            }
+        }
+        
+        stage('Build')
+        {
+        steps
+        {
+            bat label:'',script:'dotnet build'
+            echo 'Project Build done'
+        }
+        }
+        
+        stage('Test')
+        {
+        steps
+        {
+            bat label:'',script:'dotnet test'
+            echo 'Project Test done'
+        }
+        
+        }
+        
+        stage('Run')
+        {
+        steps
+        {
+            bat label:'',script:'dotnet run'
+            echo 'Project Execution done'
+        }
+        }
+    }
+}
