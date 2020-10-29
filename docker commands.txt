@@ -1,0 +1,57 @@
+Docker commands:
+docker –version
+docker pull
+docker run
+docker ps
+docker ps -a
+docker exec
+docker stop
+docker kill
+docker commit
+docker login
+docker push
+docker images
+docker rm
+docker rmi
+docker build
+
+1. docker --version
+2. docker pull hello-world (to pull an image from docker hub)
+3. docker run hello-world (to run an image)
+4. docker image ls (to view all the images)
+5. docker run -d --name containername imagename (detach mode)
+   docker run -it -d <imagename>
+6. docker ps -a (to see all the history of containers)
+7. docker stop containername (to stop a running container)
+8. docker kill containerid (to kill the container which can be started again)
+9. docker rm containerid(to delete a container)
+10. docker rmi imageid (to remove an image)
+11. docker exec -it<container id> bash(access running container)
+
+https://docs.docker.com/get-started/part2/
+
+1. sudo docker build --tag imagename:tagname .(to build an image)
+2. docker run --publish 8000:8080 --detach --name containername imagename:tagname
+
+3. sudo docker exec --interactive --tty (containername) /bin/bash (to execute container)
+4. exit (to come out of container)
+
+Build your image from github url:
+1. git clone https://github.com/dockersamples/node-bulletin-board
+2. cd node-bulletin-board/bulletin-board-app
+3. docker build --tag bulletinboard:1.0 .
+4. docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+5. docker rm --force bb
+
+To push a docker image to docker hub
+
+8. sudo docker commit containerid shrivalli04/imagename:tagname
+9. sudo docker push shrivalli04/imagename:tagname
+ 
+
+
+
+
+can an image exist without a container?
+yes
+can a container exist without an image?
