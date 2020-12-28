@@ -19,3 +19,4 @@ Plugins:
 2. Maven
 
 https://github.com/Java-Techie-jt/docker-jenkins-integration-sample.git 
+pls add notes as required
